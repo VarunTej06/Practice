@@ -3,3 +3,4 @@ We are learning devops
 super man and bat man
 learinign Pull requets 
 using youtube and from a realtime devOps engineer
+Testing git reset
