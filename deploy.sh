@@ -146,7 +146,9 @@ print_color "green" "Updating YUM .."
 sudo yum update -y
 
 print_color "green" "Installing Web Server Packages .."
-sudo yum install -y httpd php php-mysql
+sudo yum install -y httpd
+sudo yum install -y php
+sudo yum install -y php-mysql
 
 # Configure firewalld rules
 print_color "green" "Configuring FirewallD rules.."
